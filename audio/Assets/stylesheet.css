@@ -1,0 +1,26 @@
+.opponents {
+  display: inline-flex;
+  align-content: space-around;
+}
+
+.game {
+  display: flex;
+  display: block;
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+}
+.clubs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+}
